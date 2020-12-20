@@ -1,3 +1,6 @@
+DO NOT MANUALLY CREATE THE STATIC_ROOT directory, instead use "**python manage.py collectstatic**" to create it, otherwise, it will get the following error:
+-- *raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)*
+
 > A batteries-included Django starter project. For a production-ready version see the book [Django for Professionals](https://djangoforprofessionals.com).
 
 ## 🚀 Features
